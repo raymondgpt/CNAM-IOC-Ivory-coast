@@ -330,7 +330,7 @@ select region,
        etl_time
 from `ods`.`ods_fichiers_sources_excel_production_declaratives_prodmasse`
 where value is not null ;
-#
+#212
 # select * from `dw`.`dw_production_declaratives_prodmasse` where period='2024-07-25';
 --  select * from `dw`.`dw_production_declaratives` where site ='COCODY BANQUE MONDIALE'
 --  select count(distinct site) from ods.ods_fichiers_sources_excel_production_declaratives

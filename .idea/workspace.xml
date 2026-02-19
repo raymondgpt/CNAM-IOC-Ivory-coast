@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca84b394-2e87-424b-ace4-97f3b72c4bd3" name="Changes" comment="代码上传" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../DataGripProjects\exportToHTML" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="C:\Program Files\Git\cmd\git.exe" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="raymond-branch" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "raymondgpt"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/raymondgpt/CNAM-IOC-Ivory-coast.git",
+    "accountId": "51d22dc3-80ad-4e6f-abec-6ba69b4a3c99"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://D:/微信/微信文件/xwechat_files/wxid_rayxgt8zwvkc22_04ed/msg/file/2026-01/卡生产数据包含null值语句.sql" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/微信/微信文件/xwechat_files/wxid_rayxgt8zwvkc22_04ed/msg/file/2026-01/已修改脚本2026.1.26_v1.0.sql" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/微信/微信文件/xwechat_files/wxid_rayxgt8zwvkc22_04ed/msg/file/2026-01/已修改脚本2026.1.28_v1.2.sql" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/微信/微信文件/xwechat_files/wxid_rayxgt8zwvkc22_04ed/msg/file/2026-01/已修改脚本2026.1.29_v1.0(1).sql" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/微信/微信文件/xwechat_files/wxid_rayxgt8zwvkc22_04ed/msg/file/2026-01/已修改脚本2026.1.30_v1.0.sql" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MigrationScriptOptions">
+    <option name="ignoreImplicitObjects" value="true" />
+    <option name="ignoreSourceCode" value="false" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="30ntREpvEhHXcyn5vWOOlnjrxDS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "database.data.extractors.current.id": "CSV-Groovy.csv.groovy",
+    "last_opened_file_path": "C:/Users/PC",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "oracle"
+    ]
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca84b394-2e87-424b-ace4-97f3b72c4bd3" name="Changes" comment="" />
+      <created>1754275156047</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754275156047</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2312" />
+    <MESSAGE value="23124" />
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

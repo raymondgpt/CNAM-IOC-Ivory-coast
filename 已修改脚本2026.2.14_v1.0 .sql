@@ -1,16 +1,6 @@
 TRUNCATE TABLE dim.dim_country_district;
 -- this table stores the relationship between the region name of all excel file and the region name of the map
-INSERT INTO dim.dim_country_district (name,geo_name,district_type,etl_time) VALUES
-('ABIDJAN 1','Abidjan','region',CURRENT_TIMESTAMP()),
-('ABIDJAN 2','Abidjan','region',CURRENT_TIMESTAMP()),
-('DISTRICT D''ABIDJAN','Abidjan','region',CURRENT_TIMESTAMP()),
-('ABIDJAN','Abidjan','region',CURRENT_TIMESTAMP()),
-('AGNEBY TIASSA','Agnéby-tiassa','region',CURRENT_TIMESTAMP()),
-('REGION DE L AGNEBY-TIASSA','Agnéby-tiassa','region',CURRENT_TIMESTAMP()),
-('AGNEBY-TIASSA','Agnéby-tiassa','region',CURRENT_TIMESTAMP()),
-('REGION DE LAGNEBY-TIASSA','Agnéby-tiassa','region',CURRENT_TIMESTAMP()),
-('LAGNEBY-TIASSA','Agnéby-tiassa','region',CURRENT_TIMESTAMP()),
-('LAGNEBY-TIASSA','Agnéby-tiassa','region',CURRENT_TIMESTAMP()),
+
 ('LAGNEBY-TIASSA','Agnéby-tiassa','region',CURRENT_TIMESTAMP()),
 ('BAFING','Bafing','region',CURRENT_TIMESTAMP()),
 ('REGION DU BAFING','Bafing','region',CURRENT_TIMESTAMP()),
@@ -1630,5 +1620,6 @@ insert into dim.dim_month_fr values
                                  (1,'janv.'),(2,'févr.'),(3,'mars'),(4,'avr.'),
                                  (5,'mai'),(6,'juin'),(7,'juil.'),(8,'août'),
                                  (9,'sept.'),(10,'oct.'),(11,'nov.'),(12,'déc.');
+
 
 

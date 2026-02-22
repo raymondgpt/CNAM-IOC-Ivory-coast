@@ -1,4 +1,4 @@
-/*NO.12 Nombre de sites d'enrolement*/
+/*Indicator NO.12 Nombre de sites d'enrolement*/
 -- ODS LAYER
 -- This table records the number of card registrations for each site.
 drop TABLE `ods`.`ods_fichiers_sources_excel_site_enrolement`;
@@ -108,6 +108,7 @@ from
             region,site_name,type,open_date) A
         left join `dim`.`dim_country_district` B on
         A.region = B.name;
+
 
 
 

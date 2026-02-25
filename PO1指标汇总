@@ -1668,7 +1668,18 @@ select
 from
     `internal`.`ods`.`ods_fichiers_sources_excel_campagne_communication`;
 ---DM LAYER
-??????
+CREATE OR REPLACE
+VIEW `dm_ccm_communication_campaigns_conducted_number_monthly` COMMENT 'VIEW' AS
+select
+    concat(campagne_year, campagne_month) as campagne_month,
+    status,
+    count(1) as campagne_num,
+    max(etl_time) as etl_time
+from
+    `internal`.`dw`.`dw_campagne_communication`
+group by
+    concat(campagne_year, campagne_month),
+    status;
 
 /*Indicator NO.76 Taux de notoriété de la CNAM*/
 ---ODS LAYER
@@ -1731,4 +1742,11 @@ from
     `internal`.`ods`.`ods_fichiers_sources_excel_visite_site_web`;
 
 -- DM LAYER
-????
+CREATE OR REPLACE
+VIEW `dm_ccm_website_visitors_number_daily` COMMENT 'VIEW' AS
+select
+    cast(date_format(visite_date, '%Y%m%d') as int) as visite_date,
+    number_of_visitors,
+    etl_time
+from
+    `internal`.`dw`.`dw_visite_site_web`;
